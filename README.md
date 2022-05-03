@@ -22,7 +22,7 @@ Gain some insights while learning React by doing. In this min-projects you cover
 - useTransition hook
 
 ## Support URLs
-- [JSON dummy data]((https://jsonplaceholder.typicode.com/guide/))
+- [JSON dummy data](https://jsonplaceholder.typicode.com/guide/)
 
 ## Project Set Up
 
