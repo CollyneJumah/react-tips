@@ -21,6 +21,9 @@ Gain some insights while learning React by doing. In this min-projects you cover
 - POST Request to sent data from React Form.
 - useTransition hook
 
+## Support URLs
+- [JSON dummy data]((https://jsonplaceholder.typicode.com/guide/))
+
 ## Project Set Up
 
 In the project directory, you can run:
