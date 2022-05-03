@@ -17,8 +17,11 @@ function App() {
   })
   return (
     <div className="App">
-      <input type="text" value={inputValue} onChange={handleChange}/>
-      {isPending && <p>updating list ...</p>}
+      <div>
+        <lable>Search by first name or Last Name</lable>
+        <input type="text" value={inputValue} onChange={handleChange}/>
+      </div>
+      {isPending && <p>updating table....</p>}
       <table border={1}>
         <tr>
           <th>First Name</th>
@@ -35,39 +38,6 @@ function App() {
           } )
         }
       </table>
-
-      {/* <InlineStyling/>
-      <StyleSheet />
-      <Forms />
-      <PostList /> 
-      <PostForm />
-      {/* 
-      <NameList/>
-      <hr/>
-      <UserGreetings />
-      <hr/>
-      <ParentComponent />
-      <hr />
-      <ClickHandler />
-      <hr/>
-      <Message />
-      <hr />
-      <Greeting name="Angular" programming="JavaScript" />
-      <Greeting name="Laravel" programming="PHP">
-        <p>
-        Laravel is a web application framework with expressive, elegant syntax. 
-        We’ve already laid the foundation — freeing you to create without sweating the small things.
-        </p>
-        <button>Get started</button>
-      </Greeting>
-      <Greeting name="Django" programming="Python">
-        <p>
-        Django is a high-level Python web framework that encourages rapid development and clean, 
-        pragmatic design. Built by experienced developers, it takes care of much of the hassle of web development, so you can focus on writing your app without needing to reinvent the wheel. 
-        It’s free and open source.
-        </p>
-        <button style={ {backgroundColor: '#44B78B'}}>Get started withDjango</button>
-      </Greeting> */}
     </div>
   );
 }
